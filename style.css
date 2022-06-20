@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-bo;
+}
+body{
+    color: #171a20;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+header{
+    
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    text-decoration: underline;
+    font-size: larger;
+    font-family: inherit;
+    font-weight: inherit;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+   
+}
+.banner{
+   background: whitesmoke;
+   width: 100%;
+   height: 50px;
+   border: none !important;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header a{
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    
+}
+.right{
+   margin-right : 50px;
+}
+.headbanner{
+    
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 10px 45px;
+    position: fixed;
+    top: 7%;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+   
+
+}
+.logo{
+    width: 120px;
+    height: 12px;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+   
+}
+nav a{
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: inherit;
+    
+    padding:  15px;
+}
+nav.centre{
+    text-align: center;
+    
+}
+section{
+   height: 100vh;
+   background-size: cover;
+   background-position: center center;
+   top: 0;
+}
+section .content{
+    width: 100%;
+   height: 15vm;
+    text-align: center;
+    padding-top: 15vh;
+}
+h1{
+    font-size: 3rem;
+    margin: 0;
+    font-family: inherit !important;
+}
+section .p{
+    margin-top:  0;
+}
+.button{
+    width: 100%;
+    margin-top: 50vh;
+    text-align: center;
+}
+.custom1{
+    background-color: rgb(44, 39, 39);
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: small;
+    font-weight: 500;
+    margin-right: 20px;
+   
+}
+.custom2{
+    background-color: #eee;
+    color: inherit;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: small;
+    font-weight: 500;
+}
+.shop{
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 100px;
+    font-size: small;
+    font-weight: 500;
+    
+}
+a{
+    color: inherit;
+}
+.footer{
+    margin-left: 500px;
+    margin-bottom: 20px;
+    word-spacing: 10px;
+    font-size: small;
+}
